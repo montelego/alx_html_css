@@ -1,0 +1,49 @@
+.page5 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #0a1a2b; /* Dark blue background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left .logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right .social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #777;
+}

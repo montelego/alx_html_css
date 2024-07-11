@@ -1,0 +1,87 @@
+.page4{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.page4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+main font input, main form textarea{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main form button{
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    
+}
+
+main form button:hover{
+    background-color: #ff4500;
+}
+
+main form button{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+
